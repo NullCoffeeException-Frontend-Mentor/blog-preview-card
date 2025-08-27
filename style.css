@@ -24,7 +24,7 @@ main {
 
 .card {
     display: flex;
-    width: max(calc(384 / 1440 * 100vw), 190px);
+    width: max(calc(384 / 1440 * 100vw), 270px);
     padding: 24px;
     flex-direction: column;
     gap: 24px;
@@ -84,4 +84,14 @@ main {
 .card__account-name {
     font-size: 1.4rem;
     font-weight: 600;
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 52%;
+    }
+
+    .card {
+        width: max(calc(327 / 800 * 100vw), 327px);
+    }
 }
