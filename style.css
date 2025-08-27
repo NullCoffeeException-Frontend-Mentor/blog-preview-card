@@ -69,6 +69,8 @@ main {
 
 .card__content-description {
     font-size: 1.6rem;
+    color: hsl(0, 0%, 42%);
+    line-height: 1.5;
 }
 
 .card__account {
